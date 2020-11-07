@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('C:/Users/Derek/coding-bootcamp/Udemy Course/Wes Bos/pizza-site-gatsby-react/gatsby/gatsby-ssr'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
