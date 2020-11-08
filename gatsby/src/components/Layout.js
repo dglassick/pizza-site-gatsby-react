@@ -7,7 +7,7 @@ import GlobalStyles from '../styles/GlobalStyles';
 import Typography from '../styles/Typography';
 import stripes from '../assets/images/stripes.svg';
 
-const SiteBoraderStyles = styled.div`
+const SiteBoarderStyles = styled.div`
   max-width: 1000px;
   margin: 12rem auto 4rem auto;
   margin-top: clamp(2rem, 10vw, 12rem);
@@ -33,13 +33,13 @@ export default function Layout({ children }) {
     <>
       <GlobalStyles />
       <Typography />
-      <SiteBoraderStyles>
+      <SiteBoarderStyles>
         <ContentStyles>
           <Nav />
           {children}
           <Footer />
         </ContentStyles>
-      </SiteBoraderStyles>
+      </SiteBoarderStyles>
     </>
   );
 }

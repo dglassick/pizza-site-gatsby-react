@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('C:/Users/Derek/coding-bootcamp/Udemy Course/Wes Bos/pizza-site-gatsby-react/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/Derek/coding-bootcamp/Udemy Course/Wes Bos/pizza-site-gatsby-react/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"vxv6h2pe","dataset":"production","watchMode":true,"token":"skQ78Te3MfDXTxTsAGxllJta7WgqO70TaI7ahXipltffS1mxMSSxbHjwZdYcmkxj3x8jNlgioMBcymmnI2UDWN1Uqi68kesN6lFyHKCjSO0bmQhlDGsbqqQ5BLk16R7rMeXuawKQ8dmFKJv7PNf518DMff3IKDUrAhxUE1we5XYNR9fbl0vh"},
+    },{
       plugin: require('C:/Users/Derek/coding-bootcamp/Udemy Course/Wes Bos/pizza-site-gatsby-react/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
