@@ -3,12 +3,13 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Nav from '../components/Nav';
 import PizzaList from '../components/PizzaList';
+import ToppingsFilter from '../components/ToppingsFilter';
 
 export default function PizzasPage({ data }) {
-  console.log(data);
   const pizzas = data.pizzas.nodes;
   return (
     <>
+      <ToppingsFilter />
       <PizzaList pizzas={pizzas} />
     </>
   );
