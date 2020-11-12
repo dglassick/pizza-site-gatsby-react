@@ -2,7 +2,7 @@ import { MdPerson as icon } from 'react-icons/md';
 
 export default {
   // computer name
-  name: 'person',
+  name: 'peron',
   // visible title
   title: 'Slicemasters',
   type: 'document',
