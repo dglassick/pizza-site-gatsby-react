@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-order-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\pages\\order.js"))),
   "component---src-pages-pizzas-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\pages\\pizzas.js"))),
   "component---src-pages-slicemasters-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\pages\\slicemasters.js"))),
-  "component---src-templates-pizza-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\templates\\Pizza.js")))
+  "component---src-templates-pizza-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\templates\\Pizza.js"))),
+  "component---src-templates-slicemaster-js": (preferDefault(require("C:\\Users\\Derek\\coding-bootcamp\\Udemy Course\\Wes Bos\\pizza-site-gatsby-react\\gatsby\\src\\templates\\Slicemaster.js")))
 }
 
